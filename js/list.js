@@ -15,7 +15,7 @@ function renderRecipes() {
             <h2>${recipe.name}</h2>
             <p class="section-label">Ingredients</p>
             <p>${recipe.ingredients}</p>
-            <p class="section-label"Instructions</p>
+            <p class="section-label">Instructions</p>
             <p>${recipe.instructions}</p>
             <button class="delete-btn" data-index="${index}">Delete</button>
         </div>
